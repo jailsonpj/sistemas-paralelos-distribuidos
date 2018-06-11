@@ -57,10 +57,10 @@ export class LearnDetailsPage {
   delete(questionId){
     let confirm = this.alertCtrl.create({
       title: 'Delete question',
-      message: 'Are you sure you want to delete this question?',
+      message: 'Você tem certeza que deseja deletar essa pergunta?',
       buttons: [
         {
-          text: 'No',
+          text: 'Não',
           handler: () => {
             console.log('No clicked');
           }
