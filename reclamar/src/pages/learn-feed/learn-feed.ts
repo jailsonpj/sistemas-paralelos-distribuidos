@@ -10,7 +10,7 @@ import { CategoryModel } from '../../services/learn.model';
   templateUrl: 'learn-feed.html',
 })
 export class LearnFeedPage {
-  _query : string = 'all';
+  _query : string = 'todos';
   categories : Array<CategoryModel> = new Array<CategoryModel>();
 
   constructor(
@@ -19,7 +19,7 @@ export class LearnFeedPage {
     public learnService: LearnService
   ) {
     let query_param = navParams.get('query');
-    this._query = isPresent(query_param) ? query_param : 'all';
+    this._query = isPresent(query_param) ? query_param : 'todos';
   }
 
   ionViewWillEnter() {
