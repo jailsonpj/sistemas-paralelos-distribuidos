@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "slug": "INFRAESTRUTURA DA EST",
-      "title": "INFRAESTRUTURA DA EST",
+      "slug": "INFRAESTRUTURA",
+      "title": "INFRAESTRUTURA",
       "description": "Perguntas e respostas sobre a infraestrutura da EST.",
       "background": "#0077ff",
       "tags": [
@@ -35,7 +35,7 @@
       "slug": "ESTACIONAMENTO",
       "title": "ESTACIONAMENTO",
       "description": "Perguntas e respostas sobre o estacionamento da EST.",
-      "background": "#16144A",
+      "background": "  #ffa700",
       "tags": [
         {
             "name": "Denuncias"
@@ -48,14 +48,14 @@
     {
       "slug": "IONIC-CLI",
       "title": "Ionic CLI",
-      "description": "Ask about Ionic CLI",
+      "description": "Sugestões de estudos",
       "background": "#432B9C",
       "tags": [
         {
-            "name": "Ionic3"
+            "name": "Livros"
         },
         {
-            "name": "CLI"
+            "name": "Vídeos"
         }
       ]
     }
