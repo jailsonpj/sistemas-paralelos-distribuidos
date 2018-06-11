@@ -4,16 +4,16 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>
-      <span>Learn Ionic!</span>
+      <span>Anota UEA-EST</span>
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <h3 class="search-query">
-    <span>Showing: </span>
+    <span>Mostrando: </span>
     <ion-badge class="query-tag">{{ _query }}</ion-badge>
-    <span class="query-explanation"> concepts</span>
+    <span class="query-explanation"> categorias</span>
   </h3>
 
   <ion-card class="category-concept-card" [style.background-color]="category.background" *ngFor="let category of categories" (click)="openDetails({ category: category })">
