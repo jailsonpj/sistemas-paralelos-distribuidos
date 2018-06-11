@@ -44,20 +44,6 @@
             "name": "Avisos"
         }
       ]
-    },
-    {
-      "slug": "IONIC-CLI",
-      "title": "Ionic CLI",
-      "description": "Ask about Ionic CLI",
-      "background": "#432B9C",
-      "tags": [
-        {
-            "name": "Ionic3"
-        },
-        {
-            "name": "CLI"
-        }
-      ]
     }
   ]
 }
