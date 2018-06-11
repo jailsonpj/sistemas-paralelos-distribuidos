@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "slug": "INFRAESTRUTURA DA EST",
+      "title": "INFRAESTRUTURA DA EST",
+      "description": "Perguntas e respostas sobre a infraestrutura da EST.",
+      "background": "#0077ff",
+      "tags": [
+        {
+          "name": "Salas"
+        },
+        {
+          "name": "Banheiros"
+        },
+        {
+          "name": "Laboratórios"
+        }
+      ]
+    },
+    {
+      "slug":"RESTAURANTE UNIVERSITÁRIO",
+      "title": "RESTAURANTE UNIVERSITÁRIO",
+      "description": "Perguntas e respostas sobre o RU da EST.",
+      "background": "#F84C61",
+      "tags":[
+        {
+          "name": "Horário de funcionamento"
+        },
+        {
+          "name": "Cardápio"
+        }
+      ]
+    },
+    {
+      "slug": "ESTACIONAMENTO",
+      "title": "ESTACIONAMENTO",
+      "description": "Perguntas e respostas sobre o estacionamento da EST.",
+      "background": "#16144A",
+      "tags": [
+        {
+            "name": "Denuncias"
+        },
+        {
+            "name": "Avisos"
+        }
+      ]
+    },
+    {
+      "slug": "IONIC-CLI",
+      "title": "Ionic CLI",
+      "description": "Ask about Ionic CLI",
+      "background": "#432B9C",
+      "tags": [
+        {
+            "name": "Ionic3"
+        },
+        {
+            "name": "CLI"
+        }
+      ]
+    }
+  ]
+}
+
