@@ -47,15 +47,15 @@
 
   <div *ngIf="answers.length == 0">
     <h3 class="answers-call-out">
-      There are no answers to this question. Be the first one to answer!
+      Não há comentários para esta pergunta, seja o primeiro a comentar!
     </h3>
   </div>
 
   <div *ngIf="answers.length > 0">
     <h3 class="answers-call-out">
-      <span class="call-out-explanation">We found </span>
+      <span class="call-out-explanation">Há </span>
       <ion-badge class="call-out-tag">{{ answers.length }}</ion-badge>
-      <span> Answers for this question!</span>
+      <span> comentários para essa pergunta!</span>
     </h3>
 
     <ion-list class="answers-list">
@@ -100,7 +100,7 @@
 <ion-footer>
   <ion-toolbar>
     <button ion-button block (click)="createAnswerModal()" color="answer">
-      <b>Know the Answer? Don't be shy!</b>
+      <b>Sabe a resposta? Não tenha vergonha, comente!</b>
     </button>
   </ion-toolbar>
 </ion-footer>
