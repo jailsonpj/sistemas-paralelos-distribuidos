@@ -4,7 +4,7 @@
       "slug": "INFRAESTRUTURA",
       "title": "INFRAESTRUTURA",
       "description": "Perguntas e respostas sobre a infraestrutura da EST.",
-      "background": "#31b404",
+      "background": "#33db64",
       "tags": [
         {
           "name": "Salas"
@@ -21,7 +21,7 @@
       "slug":"RESTAURANTE UNIVERSITÁRIO",
       "title": "RESTAURANTE UNIVERSITÁRIO",
       "description": "Perguntas e respostas sobre o RU da EST.",
-      "background": "#31b404",
+      "background": "#32db64",
       "tags":[
         {
           "name": "Horário de funcionamento"
@@ -35,7 +35,7 @@
       "slug": "ESTACIONAMENTO",
       "title": "ESTACIONAMENTO",
       "description": "Perguntas e respostas sobre o estacionamento da EST.",
-      "background": "#31b404",
+      "background": "#32db64",
       "tags": [
         {
             "name": "Denuncias"
