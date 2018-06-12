@@ -60,7 +60,7 @@
               <ion-col col-4 class="answers-details" (click)="openAnswers(question)">
                 <div class="details-wrapper">
                   <span class="total-answers">{{ question.answers.length }}</span>
-                  <span class="details-text">{{ (question.answers.length > 1 || question.answers.length == 0) ? 'Answers' : 'Respostas' }}</span>
+                  <span class="details-text">{{ (question.answers.length > 1 || question.answers.length == 0) ? 'Comentar' : 'Comentários' }}</span>
                 </div>
               </ion-col>
               <ion-col col-4 class="actions-details">
@@ -78,7 +78,7 @@
 
 <ion-footer>
   <ion-toolbar>
-    <button ion-button block (click)="createQuestionModal()" color="secondary">
+    <button ion-button block (click)="createQuestionModal()" color="#2e5c19">
       <b>VOCÊ TEM ALGUMA PERGUNTA? QUESTIONE!</b>
     </button>
   </ion-toolbar>
