@@ -23,7 +23,7 @@
           <ion-col no-padding col-4>
             <button class="question-action-button up-vote" ion-button icon-left round block small color="dark" (click)= "upVoteQuestion()">
               <ion-icon name="arrow-up"></ion-icon>
-              <div>Up-vote</div>
+              <div>Gostei</div>
             </button>
           </ion-col>
           <ion-col no-padding col-3 class="score-col">
@@ -37,7 +37,7 @@
           <ion-col no-padding col-4>
             <button class="question-action-button down-vote" ion-button icon-left round block small color="dark" (click)= "downVoteQuestion()">
               <ion-icon name="arrow-down"></ion-icon>
-              <div>Down-vote</div>
+              <div>Não-Gostei</div>
             </button>
           </ion-col>
         </ion-row>
@@ -99,7 +99,7 @@
 
 <ion-footer>
   <ion-toolbar>
-    <button ion-button block (click)="createAnswerModal()" color="answer">
+    <button ion-button block (click)="createAnswerModal()" color="secondary">
       <b>Sabe a resposta? Não tenha vergonha, comente!</b>
     </button>
   </ion-toolbar>
