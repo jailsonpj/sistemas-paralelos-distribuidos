@@ -21,7 +21,7 @@
       "slug":"RESTAURANTE UNIVERSITÁRIO",
       "title": "RESTAURANTE UNIVERSITÁRIO",
       "description": "Perguntas e respostas sobre o RU da EST.",
-      "background": "#F84C61",
+      "background": "#31b404",
       "tags":[
         {
           "name": "Horário de funcionamento"
@@ -35,7 +35,7 @@
       "slug": "ESTACIONAMENTO",
       "title": "ESTACIONAMENTO",
       "description": "Perguntas e respostas sobre o estacionamento da EST.",
-      "background": "  #ffa700",
+      "background": "#31b404",
       "tags": [
         {
             "name": "Denuncias"
