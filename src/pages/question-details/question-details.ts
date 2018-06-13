@@ -88,13 +88,13 @@ export class QuestionDetailsPage {
       message: 'Voçê tem certeza que deseja deletar essa publicação?',
       buttons: [
         {
-          text: 'No',
+          text: 'Não',
           handler: () => {
             console.log('No clicked');
           }
         },
         {
-          text: 'Yes',
+          text: 'Sim',
           handler: () => {
             this.answerService.deleteAnswer(answerId)
             .then(res => this.getAnswers())
